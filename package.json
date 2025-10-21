@@ -1,0 +1,20 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "description": "Premium Discord Music Bot with YouTube & Spotify support",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "YourName",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/voice": "^0.19.0",
+    "discord.js": "^14.23.2",
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.2",
+    "spotify-url-info": "^3.2.18",
+    "yt-search": "^2.10.8",
+    "ytdl-core": "^4.11.1"
+  }
+}
